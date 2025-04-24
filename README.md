@@ -30,5 +30,10 @@ Stores metadata (event time, photo S3 path, item information, etc.) into DynamoD
 
 Stores photo files in S3. 
 Executes expiration check logic (triggered by EventBridge on a schedule). 
-
 Triggers SNS to send notifications.  
+
+## Frontend and Dashboard: 
+
+Web Dashboard: Displays refrigerator contents, event logs, etc. Can be part of the App or a separate page. 
+
+
