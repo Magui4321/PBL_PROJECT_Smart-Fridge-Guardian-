@@ -36,4 +36,10 @@ Triggers SNS to send notifications.
 
 Web Dashboard: Displays refrigerator contents, event logs, etc. Can be part of the App or a separate page. 
 
+## Technology Stack 
 
+- Hardware: ESP32-CAM, Raspberry Pi 4 Model B, reed switch, jumper wires, USB power supply. 
+- Edge Software: MicroPython / Arduino IDE (C++), Paho MQTT Client (if MQTT). 
+- Fog Software: Python 3, Paho MQTT / Flask / Django, AWS SDK (boto3). 
+- Cloud (AWS): IoT Core, API Gateway, Lambda (Python/Node.js), DynamoDB, S3, SNS, EventBridge. 
+- Frontend (Optional): HTML, CSS, JavaScript (with React/Vue/Angular) or Mobile App framework (React Native/Flutter). 
