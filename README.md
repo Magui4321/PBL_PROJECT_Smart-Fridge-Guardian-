@@ -9,9 +9,11 @@ Software: MicroPython or Arduino C++ program.
 ### Fog Layer (Fog Computing Layer): 
 Hardware: Raspberry Pi (recommended Model 3B+ or 4). 
 Software: Python script, MQTT Broker (such as Mosquitto, if using MQTT) or Web Server (such as Flask/Django, if using HTTP). 
+
 Functions: 
 Receive data from ESP32-CAM. If the connection to the cloud is temporarily interrupted, it can be buffered and uploaded after recovery (increasing system resilience). 
 Upload to the Cloud: Securely send the processed data (events, photos) to AWS IoT Core or API Gateway via MQTT. 
+
 ### Cloud Layer (Cloud Computing Layer - AWS): 
 Core Services: 
 AWS IoT Core (Optional, recommended for MQTT): Provides secure device connection, management, and data communication. 
